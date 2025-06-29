@@ -1,35 +1,52 @@
-# 📊 Excel Data Analysis Project
+# ☕ Excel Project: Coffee Sales Dashboard
 
-## Project Overview
-This project demonstrates data analysis using Microsoft Excel. It involves data cleaning, analysis, and visualization to create an interactive dashboard.
+This project presents an Excel-based data visualization and analysis dashboard built using real-world coffee sales data. It is designed to demonstrate data cleaning, summarization, and interactive visual storytelling using Microsoft Excel.
 
-## Project Details
+## 📊 Project Overview
 
-### 🔧 Data Cleaning
-- Removed duplicate entries.
-- Standardized categorical values (e.g., converting `"M"` to `"Male"`).
-- Created age brackets using nested `IF` statements.
+The main objective of this project is to extract actionable insights from a dataset of coffee shop orders. By organizing, filtering, and visualizing the data, we aim to help stakeholders understand sales performance across different categories.
 
-### 📈 Data Analysis
-- Summarized key metrics using Pivot Tables.
-- Analyzed data such as:
-  - Average income
-  - Commute distance
-  - Demographic segments
+## 📁 Files Included
 
-### 📊 Data Visualization
-- Developed an interactive dashboard using:
-  - Pivot Charts
-  - Slicers for filters (gender, age group, region, etc.)
+- **coffeeOrdersData.xlsx** — Main data file containing raw coffee order records (including items, dates, prices, locations, and types).
+- **Dashboard (in Excel)** — Interactive dashboard showcasing key metrics, charts, and filters (slicers).
 
-## How to Use
-1. Download the repository.
-2. Open `Excel Project Dataset.xlsx` in Microsoft Excel.
-3. Explore the dashboard.
-4. Use slicers to filter and interact with the visualized data.
+## 🔍 Key Features
 
-## Author
-**Dana Robinson**  
-📧 Email: danarfintech@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/dana-robinson-acct/)  
-📁 [GitHub Repository](https://github.com/danartech/Excel-Data-Analysis-Project)
+- **Pivot Tables**: Summarized data by product type, month, store location, etc.
+- **Slicers**: Allow filtering by Date, Category, and Location.
+- **KPIs**: Total Revenue, Total Quantity Sold, Top-Selling Items.
+- **Charts**:
+  - Monthly Sales Trend
+  - Category-wise Sales Distribution
+  - Store-wise Performance Comparison
+
+## 🧼 Data Cleaning Steps
+
+- Removed blank rows and duplicate entries
+- Corrected inconsistent date/time formats
+- Standardized category names (e.g., Coffee, Tea, Pastries)
+- Ensured correct data types for calculations
+
+## 📈 Insights Discovered
+
+- Espresso-based drinks accounted for the highest revenue.
+- The Downtown store had the most consistent monthly performance.
+- Morning hours saw peak order volumes across all stores.
+
+## 🛠 Tools Used
+
+- Microsoft Excel (with Pivot Tables, Slicers, Charts, Conditional Formatting)
+
+## 📌 How to Use
+
+1. Download and open `coffeeOrdersData.xlsx` in Excel.
+2. Navigate to the **Dashboard** sheet to view visualized insights.
+3. Use slicers to filter data by time, store, or product category.
+
+## 📃 License
+
+This project is open-source under the [MIT License](LICENSE). Feel free to reuse and adapt the dashboard structure for your own datasets.
+
+---
+
